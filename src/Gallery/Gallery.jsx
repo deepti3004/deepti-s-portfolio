@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ThreeDTextEffect from "../3-D Text/ThreeDTextEffect";
 import ron from '../Gallery/ronin.png';
 import sen from '../Gallery/sensei.png';
+import thir from '../Gallery/365 days.png';
 import c from '../Gallery/50day 2025.png';
 import twoh from '../Gallery/200day.png';
 import hundred from '../Gallery/100day.png';
@@ -13,6 +14,7 @@ export default function Gallery() {
   const data = [
     { img: ron, text: "Ronin in Basics of Java" },
     { img: sen, text: "Sensei in Basics of Java" },
+    { img: thir, text: "Ronin in Basics of Java" },
     { img: c, text: "50 day in 2025 LeetCode" },
     { img: twoh, text: "Two hundred" },
     { img: hundred, text: "hundred" },
