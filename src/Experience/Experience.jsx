@@ -1,5 +1,6 @@
 import ThreeDTextEffect from '../3-D Text/ThreeDTextEffect'
 import gdsc from '../Experience/gdsc.png'
+import intern1 from '../Experience/CureXpress.png';
 import Animatedbg from '../Animated Background/Animatedbg';
 export default function Experience(){
     return(
@@ -34,6 +35,12 @@ export default function Experience(){
     )
 }
 const data=[
+    {
+        year:"April-October, 2025",
+        company:"CureXpress24 Healthcare Solution Pvt. Ltd.",
+        position:"Software Development Intern(Remote)",
+        img:intern1
+    },
     {
         year:"Nov 2023",
         company:"Google Developer Student Clubs",
