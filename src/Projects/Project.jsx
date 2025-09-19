@@ -6,6 +6,8 @@ import sc from '../Projects/sc.png'
 import sps from '../Projects/sps.png'
 import ttt from '../Projects/ttt.png'
 import w from '../Projects/wa.png'
+import StudyNotion from '../Projects/StudyNotion.png'
+import Forever from '../Projects/Forever.png'
 import ThreeDTextEffect from '../3-D Text/ThreeDTextEffect';
 import Animatedbg from '../Animated Background/Animatedbg';
 import { useState } from 'react';
@@ -81,6 +83,22 @@ export default function Project() {
     );
   }
   const data = [
+     {
+      title: "StudyNotion",
+      disc:"EdTech platform",
+      img:StudyNotion,
+      git:"https://github.com/deepti3004/StudyNotion_Website",
+      category:"MERN Stack",
+      live:"https://studynotion-website-c6f7.onrender.com/"
+    },
+     {
+      title: "Forever",
+      disc:" E-Commerce Application",
+      img:Forever,
+      git:"https://github.com/deepti3004/forever-main",
+      category:"MERN Stack",
+      live:"https://forever-frontend-theta-one.vercel.app/"
+    },
     {
       title: "RazorPay-WebClone",
       disc:"A Web Clone of Razorpay Replicating its Payment Gateway Features and UI/UX.",
